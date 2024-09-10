@@ -1,6 +1,5 @@
 package com.example.navigationtypesafe.ui.components
 
-import android.widget.Space
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

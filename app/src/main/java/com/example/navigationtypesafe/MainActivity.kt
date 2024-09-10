@@ -8,12 +8,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavDeepLinkBuilder
-import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.navArgument
 import androidx.navigation.navDeepLink
 import androidx.navigation.toRoute
 import com.example.navigationtypesafe.ui.components.HomeScreen
@@ -22,10 +19,8 @@ import com.example.navigationtypesafe.ui.components.MovieScreen
 import com.example.navigationtypesafe.ui.route.Details
 import com.example.navigationtypesafe.ui.route.Home
 import com.example.navigationtypesafe.ui.route.Movies
-import com.example.navigationtypesafe.ui.theme.Media
 import com.example.navigationtypesafe.ui.theme.NavigationTypeSafeTheme
 import com.example.navigationtypesafe.utils.Constant
-import com.google.gson.Gson
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

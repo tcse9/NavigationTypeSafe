@@ -20,7 +20,6 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.navigationtypesafe.R
-import com.example.navigationtypesafe.ui.theme.Media
 
 @Composable
 fun MediaDetailsScreen(navHostController: NavHostController, id: Int) {
